@@ -168,7 +168,7 @@
 		84FE360C28404A830082F01A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E039E3522834AC4800508176 /* SalesHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesHistoryView.swift; sourceTree = "<group>"; };
 		E039E3532834AC4800508176 /* SalesHistoryChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesHistoryChart.swift; sourceTree = "<group>"; };
-		E051076C283C187300FCE3E6 /* Food Truck All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E051076C283C187300FCE3E6 /* Truck Tracker All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truck Tracker All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08260F728CA97B000071BA9 /* TruckActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckActivityWidget.swift; sourceTree = "<group>"; };
 		E08260F928CAA2FD00071BA9 /* TruckActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckActivityAttributes.swift; sourceTree = "<group>"; };
 		E08260FE28CAA86100071BA9 /* Food-Truck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food-Truck-Info.plist"; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		E09DC3682833222700040525 /* TruckDonutsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckDonutsCard.swift; sourceTree = "<group>"; };
 		E0B61CC928416DFF00369D37 /* OrdersTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTable.swift; sourceTree = "<group>"; };
 		E0BCD66B2823850F000FDF0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E0C37BC12823189A007B925B /* Food Truck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C37BC12823189A007B925B /* Truck Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truck Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C37BC82823189D007B925B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C37BCA2823189D007B925B /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		E0C37BDC282326EF007B925B /* FoodTruckKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FoodTruckKit; sourceTree = "<group>"; };
@@ -324,9 +324,9 @@
 		E0C37BC22823189A007B925B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0C37BC12823189A007B925B /* Food Truck.app */,
+				E0C37BC12823189A007B925B /* Truck Tracker.app */,
 				E0C37C3228234145007B925B /* Widgets.appex */,
-				E051076C283C187300FCE3E6 /* Food Truck All.app */,
+				E051076C283C187300FCE3E6 /* Truck Tracker All.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,9 +466,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E0510730283C187300FCE3E6 /* Food Truck All */ = {
+		E0510730283C187300FCE3E6 /* Truck Tracker All */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Food Truck All" */;
+			buildConfigurationList = E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Truck Tracker All" */;
 			buildPhases = (
 				E0510734283C187300FCE3E6 /* Sources */,
 				E0510762283C187300FCE3E6 /* Frameworks */,
@@ -480,17 +480,17 @@
 			dependencies = (
 				E0510731283C187300FCE3E6 /* PBXTargetDependency */,
 			);
-			name = "Food Truck All";
+			name = "Truck Tracker All";
 			packageProductDependencies = (
 				E0510733283C187300FCE3E6 /* FoodTruckKit */,
 			);
 			productName = "Food Truck";
-			productReference = E051076C283C187300FCE3E6 /* Food Truck All.app */;
+			productReference = E051076C283C187300FCE3E6 /* Truck Tracker All.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0C37BC02823189A007B925B /* Food Truck */ = {
+		E0C37BC02823189A007B925B /* Truck Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0C37BD02823189D007B925B /* Build configuration list for PBXNativeTarget "Food Truck" */;
+			buildConfigurationList = E0C37BD02823189D007B925B /* Build configuration list for PBXNativeTarget "Truck Tracker" */;
 			buildPhases = (
 				E0C37BBD2823189A007B925B /* Sources */,
 				E0C37BBE2823189A007B925B /* Frameworks */,
@@ -502,12 +502,12 @@
 			dependencies = (
 				E0C37C5528236B18007B925B /* PBXTargetDependency */,
 			);
-			name = "Food Truck";
+			name = "Truck Tracker";
 			packageProductDependencies = (
 				E0C37BDE28232B8B007B925B /* FoodTruckKit */,
 			);
 			productName = "Food Truck";
-			productReference = E0C37BC12823189A007B925B /* Food Truck.app */;
+			productReference = E0C37BC12823189A007B925B /* Truck Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E0C37C3128234145007B925B /* Widgets */ = {
@@ -538,7 +538,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 2630;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					E0C37BC02823189A007B925B = {
@@ -563,8 +563,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0C37BC02823189A007B925B /* Food Truck */,
-				E0510730283C187300FCE3E6 /* Food Truck All */,
+				E0C37BC02823189A007B925B /* Truck Tracker */,
+				E0510730283C187300FCE3E6 /* Truck Tracker All */,
 				E0C37C3128234145007B925B /* Widgets */,
 			);
 		};
@@ -767,13 +767,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = H3NVV48JW4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App/Food-Truck-All-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truck Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -787,7 +788,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ed-Truck--SAMPLE-CODE-DISAMBIGUATOR-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker-All";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -812,13 +813,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = H3NVV48JW4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App/Food-Truck-All-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truck Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -832,7 +834,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ed-Truck--SAMPLE-CODE-DISAMBIGUATOR-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker-All";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -881,8 +883,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H3NVV48JW4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -902,6 +906,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_WORKSPACE = NO;
@@ -945,8 +950,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H3NVV48JW4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -959,6 +966,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_WORKSPACE = NO;
@@ -978,12 +986,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = H3NVV48JW4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App/Food-Truck-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truck Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -997,7 +1006,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Food-TruckH3NVV48JW4";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -1021,12 +1030,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = H3NVV48JW4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "App/Food-Truck-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truck Tracker";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1040,7 +1050,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Food-TruckH3NVV48JW4";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -1063,7 +1073,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H3NVV48JW4;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
@@ -1087,7 +1096,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.poorneshmv.Widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1113,7 +1122,6 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H3NVV48JW4;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
@@ -1137,7 +1145,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.poorneshmv.Widgets;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.poorneshmv.Truck-Tracker.Widgets";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1155,7 +1163,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Food Truck All" */ = {
+		E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Truck Tracker All" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E051076A283C187300FCE3E6 /* Debug */,
@@ -1173,7 +1181,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0C37BD02823189D007B925B /* Build configuration list for PBXNativeTarget "Food Truck" */ = {
+		E0C37BD02823189D007B925B /* Build configuration list for PBXNativeTarget "Truck Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0C37BD12823189D007B925B /* Debug */,
